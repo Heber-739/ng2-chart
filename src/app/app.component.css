@@ -1,0 +1,13 @@
+nav-bar{
+  width:80px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+.container{
+  width:calc( 100vw - 100px);
+  margin: 0 0 0 auto;
+}
+router-outlet{
+  width: 100%;
+}
